@@ -38,7 +38,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between relative">
         <a href="#home" className="text-2xl font-heading font-bold text-white tracking-tighter">
-          SN<span className="text-accent-blue">.</span>
+          Swathi N<span className="text-accent-blue">.</span>
         </a>
 
         {/* Desktop Links */}
