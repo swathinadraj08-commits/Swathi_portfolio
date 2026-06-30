@@ -69,7 +69,7 @@ export default function Hero() {
             </h2>
             
             <div className="flex flex-wrap justify-center lg:justify-start gap-2.5 mb-6">
-              {["AI Engineer", "Machine Learning Engineer", "Agentic AI Developer"].map((tag) => (
+              {["AI Software Developer", "AI Engineer"].map((tag) => (
                 <span key={tag} className="px-3.5 py-1.5 rounded-full border border-white/10 bg-white/5 text-xs md:text-sm font-medium text-white/80 select-none">
                   {tag}
                 </span>
