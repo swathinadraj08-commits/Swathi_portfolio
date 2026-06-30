@@ -135,7 +135,7 @@ export default function Projects() {
                     ))}
                   </div>
                   
-                  {/* Code and Live Demo Links */}
+                  {/* Code Link */}
                   <div className="flex items-center gap-6 mt-auto pt-5 border-t border-white/5">
                     <a
                       href={project.github}
@@ -144,17 +144,6 @@ export default function Projects() {
                       className="flex items-center gap-1.5 text-xs font-semibold text-muted hover:text-white transition-colors"
                     >
                       <FaGithub className="w-4 h-4" /> Code
-                    </a>
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="flex items-center gap-1.5 text-xs font-semibold text-muted hover:text-accent-blue transition-colors"
-                    >
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                      </svg>
-                      Live Demo
                     </a>
                   </div>
                 </div>
