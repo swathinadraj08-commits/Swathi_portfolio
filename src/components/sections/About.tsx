@@ -23,7 +23,7 @@ const aboutCards = [
   {
     title: "Interests",
     icon: <BrainCircuit className="w-6 h-6 text-accent-purple" />,
-    content: "Agentic AI, Machine Learning, LLMs, Automation",
+    content: "Fullstack Developer, AI Engineer, Software Developer, Agentic AI, Machine Learning, LLMs, Automation",
   },
 ];
 
